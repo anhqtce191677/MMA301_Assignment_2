@@ -9,22 +9,41 @@ import { Platform } from 'react-native';
 
 export const Colors = {
   light: {
-    text: '#000000',
-    background: '#ffffff',
-    backgroundElement: '#F0F0F3',
-    backgroundSelected: '#E0E1E6',
-    textSecondary: '#60646C',
+    text: '#111827',
+    textSecondary: '#6B7280',
+    textMuted: '#9CA3AF',
+    background: '#F9FAFB',
+    card: '#FFFFFF',
+    backgroundElement: '#F3F4F6',
+    backgroundSelected: '#E5E7EB',
+    border: '#E5E7EB',
+    primary: '#4F46E5',
+    primaryLight: '#EEF2FF',
+    accent: '#06B6D4',
+    success: '#10B981',
+    warning: '#F59E0B',
+    danger: '#EF4444',
   },
   dark: {
-    text: '#ffffff',
-    background: '#000000',
-    backgroundElement: '#212225',
-    backgroundSelected: '#2E3135',
-    textSecondary: '#B0B4BA',
+    text: '#F9FAFB',
+    textSecondary: '#9CA3AF',
+    textMuted: '#6B7280',
+    background: '#0F172A',
+    card: '#1E293B',
+    backgroundElement: '#334155',
+    backgroundSelected: '#475569',
+    border: '#334155',
+    primary: '#6366F1',
+    primaryLight: '#312E81',
+    accent: '#22D3EE',
+    success: '#34D399',
+    warning: '#FBBF24',
+    danger: '#F87171',
   },
 } as const;
 
-export type ThemeColor = keyof typeof Colors.light & keyof typeof Colors.dark;
+export type ThemeColors = typeof Colors.light;
+export type ThemeColor = keyof typeof Colors.light;
 
 export const Fonts = Platform.select({
   ios: {
