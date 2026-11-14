@@ -1,6 +1,6 @@
 linkgithub: https://github.com/anhqtce191677/MMA301_Assignment_2
 
-link_drive: https://drive.google.com/file/d/153G3b2JJfcjxsi1rGCUJKPVzW1Z8aXT8/view?usp=sharing
+link_drive_video: https://drive.google.com/file/d/153G3b2JJfcjxsi1rGCUJKPVzW1Z8aXT8/view?usp=sharing
 
 # MMA301 - ASSIGNMENT 02: INTEGRATED E-COMMERCE MOBILE APP (GAMESTORE PRO)
 
