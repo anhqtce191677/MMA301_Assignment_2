@@ -2,6 +2,8 @@ linkgithub: https://github.com/anhqtce191677/MMA301_Assignment_2
 
 link_drive_video: https://drive.google.com/file/d/153G3b2JJfcjxsi1rGCUJKPVzW1Z8aXT8/view?usp=sharing
 
+link_.doc: https://docs.google.com/document/d/12OhHwSssSfNdYKWk77p1ZTVUNg26jK_9xsC0avU8w3E/edit?hl=vi&tab=t.0
+
 # MMA301 - ASSIGNMENT 02: INTEGRATED E-COMMERCE MOBILE APP (GAMESTORE PRO)
 
 > **Môn học:** MMA301 – Multiplatform Mobile App Development  
